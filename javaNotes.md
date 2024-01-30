@@ -8,10 +8,19 @@
 
 2. **Explain the concept of Java Virtual Machine (JVM).**
    - JVM is an abstract machine providing a runtime environment for Java bytecode execution, comprising memory area, execution engine, and classloader subsystem.
+     
+3. **Difference between JDK, JRE, and JVM:**
+   - JDK (Java Development Kit): Software development kit to develop Java applications (includes JRE, an interpreter/loader (Java), a compiler (javac), an archiver (jar), a documentation generator (Javadoc), and other tools needed in Java development).
+   - JRE (Java Runtime Environment): Implementation of JVM that provides runtime environment to execute Java bytecode.
+   - JVM (Java Virtual Machine): Abstract machine providing runtime environment for Java bytecode execution.
 
+4. **Platform Independence in Java:**
+   - Java is platform-independent due to its bytecode, which can be interpreted on any system through the JVM, making the code portable across platforms.
 ### Object-Oriented Programming
 1. **What are the main principles of Object-Oriented Programming?**
    - Encapsulation, inheritance, polymorphism, abstraction.
+2. **Polymorphism:**
+   - Polymorphism: Ability of an object to take many forms. Two types: compile-time (method overloading) and runtime (method overriding).
 
 ### Advanced Concepts
 1. **What are Java Streams?**
@@ -54,6 +63,6 @@
 ### Best Practices and Design
 1. **What are some best practices for Spring Framework?**
    - Use Dependency Injection, follow the "convention over configuration" principle, utilize Spring Boot, Spring Security, and write tests using Spring's test support.
-"""
+2. 
 
 
